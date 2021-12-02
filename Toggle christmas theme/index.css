@@ -1,0 +1,132 @@
+:root {
+  --wine-red: #C7375F;
+  --bright-red: #D42D2F;
+  --dark-green: #344D2F;
+  --light-green: #77A047;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+body {
+    background-color: var(--wine-red);
+    height: 100vh;
+}
+
+.container {
+    background: var(--snow);
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 3em;
+    min-width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+p {
+    font-size: 45px;
+}
+
+.radio-container {
+    width: 200px;
+    font-size: 22px;
+    display: flex;
+}
+
+.theme-name {
+    margin-left: 0.5em;
+}
+
+.christmas {
+    font-family: 'Mountains of Christmas', cursive;
+    color: var(--dark-green);
+    background-color: var(--wine-red);
+}
+
+.snow {
+    font-family: 'Lobster Two', cursive;
+    color: var(--snow);
+    background-color: var(--snow);
+    background-image: url(./img/snow-forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.snow .container {
+    color: #F0F4F7;
+    background-color: var(--dark-green);
+}
+
+.toys {
+    font-family: 'Gwendolyn', cursive;
+    color: var(--gold);
+    background-image: url(./img/glass-balls.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.toys .container {
+    opacity: 0.7;
+}
+
+/* radio buttons  */
+
+.switch {
+    width: 30px;
+    height: 18px;
+    position: relative;
+    display: inline-block; 
+}
+
+.switch input {
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.slider{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 24px;
+}
+
+.slider:before{
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    height: 17px;
+    width: 17px;
+    left: 0;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(14px);
+}
