@@ -5,4 +5,5 @@ Advent js calendar from scrimba.com
 - Day 3 - Don't scare your Relatives
 - Day 4 - Shopping Christmas list
 - Day 5 - Christmas card
+- Day 6 - Text Christmassify
 
