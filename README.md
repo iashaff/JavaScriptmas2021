@@ -6,4 +6,5 @@ Advent js calendar from scrimba.com
 - Day 4 - Shopping Christmas list
 - Day 5 - Christmas card
 - Day 6 - Text Christmassify
+- Day 7 - Play a Christmas
 
