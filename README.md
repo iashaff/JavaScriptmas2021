@@ -7,4 +7,5 @@ Advent js calendar from scrimba.com
 - Day 5 - Christmas card
 - Day 6 - Text Christmassify
 - Day 7 - Play a Christmas
+- Day 8 - Animate bell
 
