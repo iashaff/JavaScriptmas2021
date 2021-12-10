@@ -9,4 +9,5 @@ Advent js calendar from scrimba.com
 - Day 7 - Play a Christmas
 - Day 8 - Animate bell
 - Day 9 - Turn on the decorations
+- Day 10 - Festivity Loader
 
