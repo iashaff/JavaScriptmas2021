@@ -11,4 +11,6 @@ Advent js calendar from scrimba.com
 - Day 9 - Turn on the decorations
 - Day 10 - Festivity Loader
 - Day 11 - Christmas carousel
+- Day 12 - Christmas guest List
+- Day 13 - Christmas dinner calculator
 
