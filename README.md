@@ -16,4 +16,5 @@ Advent js calendar from scrimba.com
 - Day 14 - Lonely elf
 - Day 15 - Festive translator
 - Day 16 - Christmas movie selector
+- Day 17 - Naughty list, Nice list
 
