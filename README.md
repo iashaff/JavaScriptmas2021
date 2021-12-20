@@ -19,4 +19,5 @@ Advent js calendar from scrimba.com
 - Day 17 - Naughty list, Nice list
 - Day 18 - Custom shopping checkbox
 - Day 19 - Dessert decider
+- Day 20 - Snowman customiser
 
